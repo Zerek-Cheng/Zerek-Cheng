@@ -6,3 +6,5 @@
 **Some Statistics About Me**
 ---
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Zerek-Cheng&layout=compact)
+![GitHub Snake Light](github-snake.svg#gh-light-mode-only)
+![GitHub Snake dark](github-snake-dark.svg#gh-dark-mode-only)

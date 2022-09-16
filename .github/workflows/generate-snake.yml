@@ -1,4 +1,4 @@
-name: generate-snake
+name: Generate The Commits Snake
 
 on:
   schedule:
@@ -15,6 +15,10 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           gif_out_path: github-snake.gif
           svg_out_path: github-snake.svg
+          outputs: |
+            github-snake.svg
+            github-snake-dark.svg?palette=github-dark
+            github-snake.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: master

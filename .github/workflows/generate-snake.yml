@@ -17,7 +17,7 @@ jobs:
           svg_out_path: github-snake.svg
       - uses: crazy-max/ghaction-github-pages@v3
         with:
-          target_branch: gh-pages
+          target_branch: master
           build_dir: /
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
